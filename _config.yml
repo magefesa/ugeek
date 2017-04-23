@@ -1,11 +1,11 @@
 # Site settings
-title: Harvey | 前端学习
-description: "Harvey's blog build with Jekyll."
-url: "http://hewei.site"
+title: uGeek
+description: "Podcast de Tecnología en el que hablo de GNU/Linux, Raspberry Pi, servidores y tecnología en general"
+url: "https://ugeek.github.io"
 author:
-  name: "Harvey"
-  email: "heweimr@gmail.com"
-  url: "http://www.hewei.site"
+  name: "Angel"
+  email: "ugeekpodcast@gmail.com"
+url: "https://ugeek.github.io"
 
 # Build settings
 baseurl: '/' # Change this to your relative path (ex: /blog/), or leave just a /
@@ -29,6 +29,25 @@ defaults:
     values:
       layout: "post"
 
+#Google Analitics
+google_analytics: UA-96879567-1
+
+# Podcast Feed Settings
+podcast_url: https://ugeek.github.io
+podcast_album_art: https://ugeek.github.io/img/ugeek.png
+podcast_title: uGeek
+podcast_owner: Angel
+podcast_email: ugeekpodcast@gmail.com
+podcast_category: Technology
+podcast_subcategory_one: Linux
+podcast_subcategory_two: Gadgets
+podcast_explicit: "no"
+podcast_author: Angel
+podcast_description: Podcast de Tecnología en el que hablo de GNU/Linux, Raspberry Pi, servidores y tecnología en general.
+podcast_summary: Podcast de Tecnología en el que hablo de GNU/Linux, Raspberry Pi, servidores y tecnología en general.
+podcast_subtitle: : Podcast de Tecnología en el que hablo de GNU/Linux, Raspberry Pi, servidores y tecnología en general.
+
+
 # Plugins
 gems:
   - jekyll-paginate
@@ -41,5 +60,5 @@ custom_header: false
 custom_nav_footer: true
 reverse: false
 
-# 首页摘要
+
 excerpt_separator: <!--more-->
